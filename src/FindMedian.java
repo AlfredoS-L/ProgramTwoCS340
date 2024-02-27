@@ -1,3 +1,17 @@
+/**
+ * This class finds the median of an array of integers by using a modifed quicksort
+ * <p>
+ * This class finds the median of an array of specific integers input by the user. The
+ * algorithm uses a modified version of the quick sort algorithm to order the integers in
+ * accending order than find its median. In cases of even number of integers the median
+ * is found by taking the average of the two middle most integers.
+ * <p>
+ * author Charles Ray and Alfredo Sandoval-Luis
+ * edu.uwp.cs.340.course CSCI 340 - Data Structures/Algotrithm Design
+ * edu.uwp.cs.340.section 001
+ * edu.uwp.cs.340.assignment 2
+ * bugs none
+ */
 public class FindMedian {
 
     public static double findMedian(int[] array) {
